@@ -11,9 +11,4 @@ pipeline {
         }
     }
 
-    // Optional: nice console colors and timestamps
-    options {
-        timestamps()
-        ansiColor('xterm')
-    }
 }
