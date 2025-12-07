@@ -6,7 +6,6 @@ pipeline {
             steps {
                 sh 'echo "Hello from MacBook!"'
                 sh 'aws --version || echo "no aws cli installed"'
-                sh 'ps -ef | head -20'
                 sh 'askjhasdhjkasdh'
             }
         }
